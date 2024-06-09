@@ -54,4 +54,4 @@ python main_color.py --file ./demo/0001_gt.ply --sample 2048
 - [ ] Support large-scale point cloud rendering (e.g. S3DIS and ScanNet v2 datasets).
 
 # Acknowledge
-This script deeply based on [Mitsuba2PointCloudRenderer](https://github.com/tolgabirdal/Mitsuba2PointCloudRenderer) and [PointFlowRenderer](https://github.com/zekunhao1995/PointFlowRenderer) and is an easy-to-use version, which uses the Mitsuba3.
+This script deeply based on [Mitsuba2PointCloudRenderer](https://github.com/tolgabirdal/Mitsuba2PointCloudRenderer), [PointFlowRenderer](https://github.com/zekunhao1995/PointFlowRenderer), and [PointCloudRenderer](https://github.com/OuyangJunyuan/PointCloudRenderer) and is an easy-to-use version, which uses the Mitsuba3.
