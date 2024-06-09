@@ -1,5 +1,7 @@
 # Point Cloud Renderer Using Mitsuba3
 
+For more properties of `Mitsuba3` please refer to this [link](https://mitsuba.readthedocs.io/en/stable/src/rendering_tutorials.html).
+
 <img src="./asset/demo.png"/>
 
 # Preparation
@@ -47,11 +49,9 @@ python main_color.py --file ./demo/0001_gt.ply --sample 2048
 * `--file`: path to input point cloud, the extension should be `.ply`, which can contains color information.
 * `--sample`: the number of points to be sampled for rendering.
 
-# Further development
-1. The official reference link is given inline the code about scene definition. 
-2. Edit the scene: [ref](git@github.com:OuyangJunyuan/PointCloudRenderer.git)
-3. For more properties of plugins please refer this [link](https://mitsuba.readthedocs.io/en/stable/src/rendering_tutorials.html).
+# Future Works
+- [ ] Support GPU rendering.
+- [ ] Support large-scale point cloud rendering (e.g. S3DIS and ScanNet v2 datasets).
 
 # Acknowledge
-
 This script deeply based on [Mitsuba2PointCloudRenderer](https://github.com/tolgabirdal/Mitsuba2PointCloudRenderer) and [PointFlowRenderer](https://github.com/zekunhao1995/PointFlowRenderer) and is an easy-to-use version, which uses the Mitsuba3.
