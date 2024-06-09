@@ -20,7 +20,7 @@ pip install -r requirements.txt
 # Single image rendering
 ## 1. render a point cloud with default color setting
 ```shell
-python main.py --file ./demo/position_1024_pts_1.txt --sample 1024
+python main.py --file ./demo/chair_1024_pts.txt --sample 1024
 ```
 `arguments:`
 * `--file`: path to input point cloud
